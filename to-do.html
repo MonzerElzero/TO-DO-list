@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="make your life more organized and efficient with the TO-DO list app! Easily manage your daily tasks with a simple and easy-to-use interface . the app features allow you to track tasks,set reminders,and prioritize , helping you boost your productivity and achieve your goals faster. join thousands of users today who have made TO-DO list their perfect companion for success!">    
+    <meta name="keywords" content="TO-DO list,productivity,time management,task prioritization,deadlines,organization,stress reduction,goal achievement">
+    <title>to do list </title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/to-do.css">
+</head>
+<body>
+    <div class="pop">
+        <h4>welcome to my app!</h4>
+        <p>now you can organization and manage your task very effectively by use my TO-DO list app</p>
+        <button onclick="ok()">OK</button> 
+    </div>
+    <div class="container">
+        <h2> to do list</h2>
+        <input type="text" id="taskInput" placeholder="TASK ...">
+        <input type="text" id="deadInput" placeholder="DEAD LINE..">
+        <button id="add" onclick="add()" type="button">Add new task</button>
+        <button onclick="delAll()" type="button">delete all</button>
+    </div>
+    <h3>your current task</h3>
+    <div class="taskBox">
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/to-do.js"></script>
+</body>
+</html>
